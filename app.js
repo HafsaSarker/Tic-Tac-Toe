@@ -55,7 +55,7 @@ function isDraw(matrix){
                temp++;
         }
     }
-    console.log({temp});
+    // console.log({temp});
     if(temp == 9) return true;
     return false;
 }
@@ -105,7 +105,7 @@ function gameStats(matrix) {
     const playerID = document.querySelector('.title');
     //check for winner
     if(checkWinner(matrix)){
-        console.log('over');
+        // console.log('over');
         won = true;
         running = false;
         playerID.textContent = `Player ${currPlayer} won!`
@@ -119,7 +119,7 @@ function gameStats(matrix) {
     else{
         changePlayer();
     }
-    console.log(matrix);
+    // console.log(matrix);
 }
 
 function userStart(){
