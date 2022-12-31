@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #622ffa , #16144b);
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+
+}
+.title{
+    color: #f8e8e8;
+}
+.turns-div{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.board{
+    background-color:
+    #b2a1f8;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.grids{
+    margin: 5px 5px;
+    padding: 0px;
+    width: 95px;  
+    height: 95px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #8165f0;
+    font-size: 40px;
+    font-weight: 700;
+    box-shadow: 2px 2px 4px #9689be;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #fbbf24;
+    -webkit-text-stroke: 3px black;
+}
+.grids:hover{
+    background-color: #927af3;
+    box-shadow: 2px 2px 4px #826fbd;
+}
+.turns-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.player1,
+.player2 {
+    background-image: linear-gradient(to top, #fa3fbc , #773de4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 5px;
+    padding: 0px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 110px;
+    width: 50px;
+    box-shadow: 2px 2px 8px #2c00b1;
+}
+.pfp{
+    background-color: #fafafa;
+    padding: 10 10;
+    border-radius: 50px;
+    margin-bottom: 0;
+}
+.signx,
+.signo{
+    background-color: #866af8;
+    width: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    color: red;
+    -webkit-text-stroke: 2px black;
+}
+.signoTurn,
+.signxTurn{
+    color: #fbbf24;
+}
+
+.signxTurn{
+    background-color:#866af8;
+    width: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: solid;
+    border-color:#ffb804;
+    border-width: 4px;
+    text-align: center;
+    color: #fbbf24;
+    -webkit-text-stroke: 2px black;
+}
+.signoTurn{
+    background-color:#866af8;
+    width: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: solid;
+    border-color:#ffb804;
+    border-width: 4px;
+    text-align: center;
+    color: #fbbf24;
+    -webkit-text-stroke: 2px black;
+}
+
+.res {
+    background-color: #b2a1f8;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 20px;
+    color: #fafafa;
+}
+.reset{
+    padding: 10px 30px;
+    background-image: linear-gradient(to top, #fa2fb6 , #6927e6);
+    font-size: 14px;
+    border-radius: 10px;
+    color: #f8e8e8;
+    font-weight:700;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
